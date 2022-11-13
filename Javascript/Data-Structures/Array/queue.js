@@ -5,7 +5,7 @@ Common operations
   isEmpty: Returns true if queue is empty
 */
 
-class Queue {
+ export class Queue {
   constructor() {
     this.elements = {};
     this.head = 0;
@@ -36,3 +36,6 @@ class Queue {
     return this.length === 0;
   }
 }
+
+// console.log(new Queue())
+// export {Queue};

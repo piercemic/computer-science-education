@@ -1,0 +1,19 @@
+{
+  "name": "computer-science-education",
+  "version": "1.0.0",
+  "description": "A place to store computer science knowledge.",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "jest": "29.3.1"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

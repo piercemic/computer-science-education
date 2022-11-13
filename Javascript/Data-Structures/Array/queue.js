@@ -5,7 +5,7 @@ Common operations
   isEmpty: Returns true if queue is empty
 */
 
- export class Queue {
+export class Queue {
   constructor() {
     this.elements = {};
     this.head = 0;

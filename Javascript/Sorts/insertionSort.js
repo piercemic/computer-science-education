@@ -17,12 +17,12 @@ const insertionSort = (numbers) => {
     let j;
     const unsortedItem = numbers[i];
     /* Check through the sorted part and compare with the number in tmp. If large, shift the number */
-    for (j = i - 1; (j >= 0) && (numbers[j] > unsortedItem); j--) {
+    for (j = i - 1; j >= 0 && numbers[j] > unsortedItem; j--) {
       numbers[j + 1] = numbers[j];
     }
 
     numbers[j + 1] = unsortedItem;
   }
   return numbers;
-}
-console.log(insertionSort([43,2,23,32,1,3]))
+};
+console.log(insertionSort([43, 2, 23, 32, 1, 3]));

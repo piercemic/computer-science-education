@@ -17,7 +17,7 @@ const bubbleSort = (items) => {
 
   while (swapped) {
     swapped = false;
-    for(let i = 0; i < items.length - 1; i++) {
+    for (let i = 0; i < items.length - 1; i++) {
       const current = items[i];
       const next = items[i + 1];
       if (current > next) {
@@ -28,7 +28,7 @@ const bubbleSort = (items) => {
   }
 
   return items;
-}
+};
 
 /*
 Given an array of n input integers, return the sum of maximum and minimum elements of the array.

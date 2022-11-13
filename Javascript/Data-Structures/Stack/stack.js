@@ -7,36 +7,36 @@ Common operations
 */
 
 class Stack {
-  constructor () {
-    this.stack = []
-    this.top = 0
+  constructor() {
+    this.stack = [];
+    this.top = 0;
   }
 
-  push (newValue) {
-    this.stack.push(newValue)
-    this.top++
+  push(newValue) {
+    this.stack.push(newValue);
+    this.top++;
   }
 
-  pop () {
+  pop() {
     if (this.top !== 0) {
-      this.top--
-      return this.stack.pop()
+      this.top--;
+      return this.stack.pop();
     }
-    throw new Error('Stack Underflow')
+    throw new Error("Stack Underflow");
   }
 
-  get length () {
-    return this.top
+  get length() {
+    return this.top;
   }
 
-  get isEmpty () {
-    return this.top === 0
+  get isEmpty() {
+    return this.top === 0;
   }
 
-  get last () {
+  get last() {
     if (this.top !== 0) {
-      return this.stack[this.stack.length - 1]
+      return this.stack[this.stack.length - 1];
     }
-    return null
+    return null;
   }
 }

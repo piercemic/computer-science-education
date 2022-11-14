@@ -1,5 +1,5 @@
 /*
-Description: A queue stores a list of objects.
+Description: A queue stores a list of items.
 
 Common operations
   Queue.enqueue(): Inserts element at the end of the queue

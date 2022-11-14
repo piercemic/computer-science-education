@@ -1,8 +1,16 @@
 /*
+Description: A queue stores a list of objects.
+
 Common operations
-  Enqueue: Inserts element at the end of the queue
-  Dequeue: Removes an element from the start of the queue
-  isEmpty: Returns true if queue is empty
+  Queue.enqueue(): Inserts element at the end of the queue
+  - Time Complexity: O(1)
+  Queue.dequeue(): Removes an element from the start of the queue
+  - Time Complexity: O(1)
+  Queue.peek(): Gets the first element in the queue
+  - Time Complexity: O(1)
+
+Notes
+  - First in first out (FIFO)
 */
 
 export class Queue {
@@ -36,6 +44,3 @@ export class Queue {
     return this.length === 0;
   }
 }
-
-// console.log(new Queue())
-// export {Queue};

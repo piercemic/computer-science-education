@@ -4,6 +4,9 @@ Description: A stack takes an array of items.
 Common operations
   Push: Inserts an element at the top
   Pop: Returns the top element after removing it from the stack
+
+Notes
+- Last in last out (LILO)
 */
 
 class Stack {

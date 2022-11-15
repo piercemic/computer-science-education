@@ -34,7 +34,7 @@ const bucketSort = (list, size) => {
 
   // bucket fill
   for (let i = 0; i < list.length; i++) {
-    const key = Math.floor((list[i] - min) / size);
+    const key = Math.floor((list[i] - min) / size); // ?
     buckets[key].push(list[i]);
   }
 

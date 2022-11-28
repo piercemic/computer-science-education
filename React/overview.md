@@ -2,5 +2,5 @@
 
 - The only function component you need to know.
 
-- The only class component you need to know. state, data flow, events
+- The only class component you need to know. state, data flow, events, list/key, form.
 (https://reactjs.org/docs/state-and-lifecycle.html)

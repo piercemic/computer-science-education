@@ -1,0 +1,5 @@
+- In React, transforming arrays into lists of elements is nearly identical to JavaScript.
+- Lists are usually rendered in a component.
+- When creating lists of elements, each element needs a key. A key is a unique string value that helps React identify which items have changed, been added or removed. 
+- Keys don’t get passed to your components. You cannot read `props.key`.
+- When you don’t have stable IDs for rendered items, you may use the item index as a key as a last resort - unless the orders changing.

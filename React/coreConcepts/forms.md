@@ -1,5 +1,4 @@
-- Form elements naturally keep some internal state. 
-- Controlled component have access to the form data.
+- While HTML form elements naturally keep some internal state. React forms use controlled components to handle form submission and data access.
 - Component state should be the "single source of truth" for all form values. Meaning a rendered value should be passed something like `this.state.value`.
 - With a controlled component, the input’s value is always driven by the React state.
 - In React, a `<textarea>` uses a value attribute as opposed to child text.

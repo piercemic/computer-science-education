@@ -31,4 +31,4 @@ For each piece of state in your application:
 - Either the common owner or another component higher up in the hierarchy should own the state.
 - If you can’t find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common owner component.
 5. **Add Inverse Data Flow**<br/>
-The goal is to support data flowing the other way: components deep in the hierarchy need to update the state.
+Support data flowing the other way: components deep in the hierarchy need to update the state.

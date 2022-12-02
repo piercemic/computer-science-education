@@ -1,5 +1,5 @@
-## Most of React's Core Copents In One App
-This example was pulled from Thinking in React's final step. [Try it on CodePen](https://codepen.io/gaearon/pen/LzWZvb).
+## Most of React's Core Concepts In One App
+[Thinking in React: Step 5](https://codepen.io/gaearon/pen/LzWZvb) example app.
 
 ```
 class ProductCategoryRow extends React.Component {

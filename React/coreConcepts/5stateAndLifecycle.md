@@ -1,8 +1,8 @@
 - Convert a function component into a class:
-  1. Create an ES6 class, with the same name, that ```extends React.Component```.
-  2. Add a single empty method to it called ```render()```.
-  3. Move the body of the function into the ```render()``` method.
-  4. Replace props with ```this.props``` in the ```render()``` body.
+  1. Create an ES6 class, with the same name, that `extends React.Component`.
+  2. Add a single empty method to it called `render()`.
+  3. Move the body of the function into the `render()` method.
+  4. Replace props with `this.props` in the `render()` body.
   5. Delete the remaining empty function declaration.
 ```
 class Clock extends React.Component {
@@ -17,18 +17,18 @@ class Clock extends React.Component {
 }
 ```
 - How to add local state to a class
-  1. Replace this.props.date with this.state.date in the ```render()``` method.
-  2. Add a class constructor that assigns the initial ```this.state```. Class components should always call the base constructor with props:
+  1. Replace `this.props.date` with `this.state.date` in the `render()` method.
+  2. Add a class constructor that assigns the initial `this.state`. Class components should always call the base constructor with props:
   ```
     constructor(props) {
     super(props);
     this.state = {date: new Date()};
   }
   ```
-- Mounting in React is setting a timer (usually ```setInterval()```) after a component is initially rendered to the DOM.
-- Unmounting in React is clearing the time (usually ```clearInterval()```) whenever the DOM produced by the component is removed.
-- Lifecycle methods are ```componentDidMount``` and ```componentWillUnmount```.
-- The ```componentDidMount()``` method runs after the component output has been rendered to the DOM. This is a good place to set up a timer.
+- Mounting in React is setting a timer (usually with `setInterval()`) after a component is initially rendered to the DOM.
+- Unmounting in React is clearing the time (usually with `clearInterval()`) whenever the DOM produced by the component is removed.
+- Lifecycle methods are `componentDidMount` and `componentWillUnmount`.
+- The `componentDidMount()` method runs after the component output has been rendered to the DOM. This is a good place to set up a timer.
 ```
   componentDidMount() {
     this.timerID = setInterval(
@@ -52,6 +52,6 @@ class Clock extends React.Component {
     counter: state.counter + props.increment
   }));
   ```
-  3. When you call setState(), React merges the object you provide into the current state.
+  3. When you call `setState()`, React merges the object you provide into the current state.
 - A components state local or encapsulated, meaning it is not accessible by a parent or child component. However a component can pass it's state down as props.
 - React has "top-down" data flow. Meaning each component's isolated data can flow down to children components.

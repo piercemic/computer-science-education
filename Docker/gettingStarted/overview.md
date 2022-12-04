@@ -1,0 +1,6 @@
+- A **container** is a sandboxed process on your machine that is isolated from all other processes on the host machine. That isolation leverages kernel namespaces and cgroups. Container features include:
+  - a runnable instance of an image using the DockerAPI or CLI
+  - run on local or virtual machines, or deployed to the cloud
+  - portable to any OS
+  - is isolated from other containers and runs its own software, binaries, and configurations.
+-  Each container is built by an executable **container image** at runtime that contains dependencies like nodejs, any configuration like environment variables, or scripts to run.
